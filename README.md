@@ -1,2 +1,38 @@
 # Check-list
-Sigh up, log in, forgot password
+Sigh up
+1) Verify registration via filling all fields with valid data and clicking [Sign up] button. (critical path)
+2) Verify registration via receiving of message of succsseful registration on email via opening mail and following the link provided to confirm the registration of account. (critical path)
+3) Verify registration via leaving empty mandatory fields and clicking [Sign up] button. (smoke)
+4) Verify registration via entering max+1 symbols in 'First name' and 'Last name' fields, valid data in 'Mobile number or email' field, 'Date of Birth' field and clicking [Sign up] button. (extended)
+5) Verify registration via entering max-1 symbols in 'First name' and 'Last name' fields, valid data in 'Mobile number or email' field, 'Date of Birth' field and clicking [Sign up] button. (extended)
+6) Verify registration via entering spaces in mandatory fields and clicking [Sign up] button. (extended)
+7) Verify registration via entering valid data in all mandatory fields  and clicking [x] button. (smoke)
+8) Verify registration via entering special symbols in 'First name' and 'Last name' fields, valid data in 'Mobile number or email' field, 'Date of Birth' field and clicking [Sign up] button. (extended)
+9) Verify registration via entering incorrect email in 'Mobile number or email' field,  valid data in 'First name' and 'Last name' fields, valid data in 'Date of Birth' field and clicking [Sign up] button. (smoke)
+10) Verify registration via choosing future date in 'Date of Birth' field, entering valid data in mandatory fields and clicking [Sign up] button. (extended)
+11) Verify registration via entering data manually in 'Date of Birth' field, entering valid data in mandatory fields and clicking [Sign up] button. (smoke)
+12) Precondition: Sign up any email. Verify registration via entering email which has just been registered, valid data in mandatory fields and clicking [Sign up] button. (extended)
+
+Log in
+1) Verify opening of user page via filling in 'Mobile number or email' field and 'Password' field with valid data and clicking [Log in] button. (critical path)
+2) Verify opening of user page via leaving empty 'Mobile number or email' 'Password' fields and clicking [Log in] button. (smoke)
+3) Verify opening of user page via entering valid data in 'Mobile number or email' field and leaving empty 'Password' field and clicking [Log in] button. (smoke)
+4) Verify opening of user page via entering valid data in 'Password' field and leaving empty 'Mobile number or email' field and clicking [Log in] button. (smoke)
+5) Verify opening of user page via entering wrong email  in 'Mobile number or email' field and valid data in 'Password' field and clicking [Log in] button. (extended)
+6) Verify opening of user page via entering wrong mobile phone in 'Mobile number or email' field and valid data in 'Password' field and clicking [Log in] button. (extended)
+7) Verify opening of user page via entering valid email  in 'Mobile number or email' field and wrong password in 'Password' field and clicking [Log in] button. (smoke)
+8) Verify opening of user page via entering valid mobile phone in 'Mobile number or email' field and wrong password in 'Password' field and clicking [Log in] button. (smoke)
+9) Verify opening of user page via entering max+1 symbols in 'Mobile number or email' field and max+1 symbols in 'Password' field and clicking [Log in] button. (extended)
+10) Verify opening of user page via entering max-1 symbols in 'Mobile number or email' field and max-1 symbols in 'Password' field and clicking [Log in] button. (extended)
+11) Verify hiding of password via entering password in 'Password' field. (critical path)
+
+Forgot password
+1) Verify opening Find Your Account page via clicking [Forgot password?] button. (critical path)
+2) Verify receiving message with link about changing password on email via entering valid email in 'Email' field and clicking [Search] button. (critical path)
+3) Verify receiving message with link about changing password on phone via entering valid phone number in 'Mobile number' field and clicking [Search] button. (critical path)
+4) Verify receiving message with link about changing password on email via entering wrong email in 'Email' field and clicking [Search] button. (smoke)
+5) Verify receiving message with link about changing password on phone via entering wrong phone number in 'Mobile number' field and clicking [Search] button. (smoke)
+6) Verify receiving message with link about changing password on email via leaving empty 'Email' field clicking [Search] button.  (smoke)
+7) Verify receiving message with link about changing password on phone via leaving empty 'Mobile number' field and clicking [Search] button. (smoke)
+8) Verify receiving message with link about changing password via entering valid phone number or email in 'Mobile number or email' field and clicking [Cancel] button. (smoke)
+9) Verify receiving message with link about changing password via leaving empty Mobile number or email' field and clicking [Cancel] button. (smoke)
